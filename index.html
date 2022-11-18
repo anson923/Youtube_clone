@@ -2,8 +2,122 @@
 <html>
   <head>
     <title>Youtube - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      p {
+        font-family: Roboto, Arial;
+
+        margin-top:0;
+        margin-bottom: 0;
+      }
+
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+      .search-bar {
+        display: block;
+      }
+      .video-title {
+        margin-bottom: 11px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .profile-img{
+        width:36px;
+        border-radius: 18px;
+      }
+      .video-profile-img{
+        display: inline-block;
+        width: 50px;
+
+        vertical-align: top;
+      }
+      .video-author ,
+      .video-stats {
+        color:rgb(96,96,96);
+        font-size:12px;
+      }
+
+      .video-author {
+        margin-bottom: 4px;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 240px;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+
+    </style>
   </head>
   <body>
-    <img src="img/learnjavascript.jpeg">
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/learnjavascript.jpeg">
+      </div>
+
+      <div>
+        <div class="video-profile-img">
+          <img class="profile-img" src="profile_img/freecodecamp.jpeg">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            Learn JavaScript - Full Course for Beginners
+          </p>
+  
+          <p class="video-author">
+            freeCodeCamp.org
+          </p>
+  
+          <p class="video-stats">
+            13M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/learn_html_css.jpeg">
+      </div>
+
+      <div>
+        <div class="video-profile-img">
+          <img class="profile-img" src="profile_img/supersimpledev.jpeg">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            HTML & CSS Full Course - Beginner to Pro (2022)
+          </p>
+  
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+  
+          <p class="video-stats">
+            2.3M views &#183; 9 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
