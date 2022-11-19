@@ -5,4 +5,36 @@
   left: 0;
   bottom: 0;
   width: 85px;
+
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+
+  display: flex;
+  /* Align to vertical */
+  justify-content: center;
+
+  /* Align to horizontal */
+  align-items: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(234, 234, 234);
+} 
+
+.sidebar-link img{
+  height: 25px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+  font-family: Roboto,Arial;
+  margin-top: 7px;
+
 }
