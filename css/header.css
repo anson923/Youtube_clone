@@ -136,7 +136,7 @@
   width: 40px;
   border: none;
   border-radius: 20px;
-  
+  background-color: white;
 }
 .voice-button:hover .tooltip {
   opacity: 1;
