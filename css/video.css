@@ -1,6 +1,7 @@
 
 .thumbnail {
   width: 100%;
+  border-radius: 6px;
 }
 .video-timer {
   position: absolute;
@@ -41,7 +42,7 @@
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
   cursor: pointer;
 }

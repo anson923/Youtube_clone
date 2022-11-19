@@ -14,10 +14,10 @@
   height: 74px;
 
   display: flex;
-  /* Align to vertical */
+  /* Align to horizontal center */
   justify-content: center;
 
-  /* Align to horizontal */
+  /* Align to vertical center */
   align-items: center;
   flex-direction: column;
 
