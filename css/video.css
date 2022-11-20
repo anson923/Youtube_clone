@@ -63,7 +63,7 @@
   /* text-decoration: underline; */
 }
 
-/* 600 pixel or less */
+/* 850 pixel or less */
 @media (max-width: 850px) {
   .video-grid{
     grid-template-columns: 1fr 1fr;
@@ -148,7 +148,3 @@
   white-space: nowrap;
   text-decoration: none;
 }
-
-
-
-
